@@ -130,12 +130,14 @@ for /F "tokens=1-5 delims=:. " %%A in ("%time%") do set HORARIO=%%A:%%B:%%C
 
 echo Iniciando iteracao !contador! as %date% %HORARIO%
 
-REM Executa o executável com caminho completo
-start "" "%EXECUTAVEL_EXE_PATH%"
+REM Executa o executável com caminho completo usando PowerShell e Start-Process
+powershell -Command "Start-Process '%EXECUTAVEL_EXE_PATH%'"
 
 REM Aguarda 3 segundos e inicia o app.py em segundo plano e envia o argumento/comando
 timeout /t 3 /nobreak >nul
-start python app.py -m keyboard_scan --device kb-000 -c keyboard.json
+
+REM Executa o app.exe com o arquivo JSON gerado, usando Start-Process no PowerShell
+powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m touch_emulator --device te-001 -c touch.json'"
 
 REM Espera o primeiro executável terminar
 waitfor /T 15 MySignal 2>nul
@@ -186,9 +188,10 @@ if not exist "%RELATORIO_CSV%" (
 )
 echo !contador!,!HORARIO!,!RESULT! >> "%RELATORIO_CSV%"
 
-REM Fecha o processo se houver falha
+REM Fecha o processo se houver falha usando taskkill via PowerShell
 if "!RESULT!"=="Fail" (
-    taskkill /IM "%~nx2" /F
+    powershell -Command "Stop-Process -Name '%~n2' -Force"
+    REM echo Processo terminado devido a falha >> "%DEBUG_PATH%"
 )
 
 REM Incrementa o contador
