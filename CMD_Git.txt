@@ -1,9 +1,17 @@
+# Inicializa um repositório Git
 git init
 
+# Adiciona o diretório atual como seguro para evitar avisos de propriedade
+git config --global --add safe.directory 'E:/Executavel Touch/Rotina de Testes Integrada/TestecomDiretorioeFrontV6.0'
+
+# Adiciona todos os arquivos ao índice do Git
 git add .
 
-git commit -m "Primeiro commit"
+# Faz um commit com uma mensagem
+git commit -m "Adicionando arquivos ao repositório"
 
-git remote add origin https://github.com/WigoWigo10/App_py.git
+# Adiciona o repositório remoto (substitua pela URL correta do seu repositório)
+git remote add origin https://github.com/WigoWigo10/Testes-Integrados-Prometheus.git
 
-git push -u origin main
+# Envia os arquivos para o repositório remoto na branch main
+git push -u origin maste
