@@ -50,14 +50,21 @@ if exist "%RELATORIO_TXT%" (
     goto checkfile
 )
 
+REM Cria o arquivo debug_touch.txt para registrar informações detalhadas de debug
+REM set DEBUG_PATH=%RELATORIO_PATH%\Touch\debug_touch.txt
+REM echo Criando arquivo de debug: %DEBUG_PATH%
+REM echo Início do script - Data: %date% Hora: %time% > "%DEBUG_PATH%"
+
 REM Verifica se o executável existe
 if not exist "%EXECUTAVEL_EXE_PATH%" (
+    REM echo O executável não foi encontrado! >> "%DEBUG_PATH%"
     MSG * O executável não foi encontrado!
     exit /b
 )
 
 REM Verifica se o app.exe existe no diretório atual
 if not exist "%APP_PATH%" (
+    REM echo O arquivo app.exe não foi encontrado! >> "%DEBUG_PATH%"
     MSG * O arquivo app.exe não foi encontrado!
     exit /b
 )
@@ -69,27 +76,34 @@ REM Captura o horário atual
 for /F "tokens=1-5 delims=:. " %%A in ("%time%") do set HORARIO=%%A:%%B:%%C
 
 echo Iniciando iteracao !contador! as %date% %HORARIO%
+REM echo Iteração !contador! iniciada em %date% %HORARIO% >> "%DEBUG_PATH%"
 
-REM Executa o executável com caminho completo
-start "" "%EXECUTAVEL_EXE_PATH%"
+REM Executa o executável com caminho completo usando PowerShell e Start-Process
+powershell -Command "Start-Process '%EXECUTAVEL_EXE_PATH%'"
+REM echo Executável iniciado: %EXECUTAVEL_EXE_PATH% >> "%DEBUG_PATH%"
 
-REM Aguarda 3 segundos e inicia o app.exe em segundo plano e envia o argumento/comando
+REM Aguarda 3 segundos e inicia o app.exe em segundo plano com argumentos/comando
 timeout /t 3 /nobreak >nul
+REM echo Timeout de 3 segundos concluído >> "%DEBUG_PATH%"
 
-REM Executa o app.exe com o arquivo JSON gerado
-start "" "%APP_PATH%" -m touch_emulator --device te-001 -c touch.json
+REM Executa o app.exe com o arquivo JSON gerado, usando Start-Process no PowerShell
+powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m touch_emulator --device te-001 -c touch.json'"
+REM echo app.exe iniciado com touch.json >> "%DEBUG_PATH%"
 
 REM Espera o primeiro executável terminar
 waitfor /T 5 MySignal 2>nul
+REM echo Comando waitfor executado >> "%DEBUG_PATH%"
 
 REM Após o término do primeiro executável, aguarda 2 segundos para garantir a geração do log
 timeout /t 2 /nobreak >nul
+REM echo Timeout de 2 segundos após app.exe concluído >> "%DEBUG_PATH%"
 
 REM Caminho do log baseado no diretório do executável
 set LOG_PATH=%~dp2ITPM_TouchpadTest.LOG
 
 REM Verifica se o log foi gerado
 if exist "%LOG_PATH%" (
+    REM echo Log encontrado: %LOG_PATH% >> "%DEBUG_PATH%"
     echo Verificando o log...
 
     REM Lê o resultado nas primeiras 2 linhas
@@ -99,6 +113,7 @@ if exist "%LOG_PATH%" (
             set RESULT=Pass
             set /a passCount+=1
             echo Passou...
+            REM echo Resultado da iteração !contador!: PASS >> "%DEBUG_PATH%"
             goto resultado
         )
     )
@@ -107,11 +122,12 @@ if exist "%LOG_PATH%" (
             set RESULT=Fail
             set /a failCount+=1
             echo Falhou...
+            REM echo Resultado da iteração !contador!: FAIL >> "%DEBUG_PATH%"
             goto resultado
         )
     )
 ) else (
-    echo Log nao encontrado! 
+    REM echo Log nao encontrado! >> "%DEBUG_PATH%"
     echo Falhou...
     set RESULT=Fail
     set /a failCount+=1
@@ -128,9 +144,10 @@ if not exist "%RELATORIO_CSV%" (
 )
 echo !contador!,!HORARIO!,!RESULT! >> "%RELATORIO_CSV%"
 
-REM Fecha o processo se houver falha
+REM Fecha o processo se houver falha usando taskkill via PowerShell
 if "!RESULT!"=="Fail" (
-    taskkill /IM "%~nx2" /F
+    powershell -Command "Stop-Process -Name '%~n2' -Force"
+    REM echo Processo terminado devido a falha >> "%DEBUG_PATH%"
 )
 
 REM Incrementa o contador
@@ -150,6 +167,9 @@ echo Total de FAIL,!failCount! >> "%RELATORIO_CSV%"
 REM Exibe as contagens no prompt
 echo Total de PASS: !passCount!
 echo Total de FAIL: !failCount!
+
+REM Registra a conclusão no arquivo de debug
+REM echo Script concluído com %passCount% PASS e %failCount% FAIL >> "%DEBUG_PATH%"
 
 REM Fim do script
 echo Testes concluidos.
