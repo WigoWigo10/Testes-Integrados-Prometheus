@@ -1,0 +1,15 @@
+python -m PyInstaller --noconfirm TestecomDiretorioeFrontV6.0.spec
+
+python -m PyInstaller --noconfirm --onefile TestecomDiretorioeFrontV6.0.spec
+  
+
+REM Cria o arquivo touch.json com o conteúdo apropriado
+echo { > touch.json
+echo "cmd": "touch", >> touch.json
+echo "touch_interval": 250, >> touch.json
+echo "delay":750, >> touch.json
+echo "sequence": [ >> touch.json
+echo {"touch_type": "single"}, >> touch.json
+echo {"touch_type": "double"} >> touch.json
+echo ] >> touch.json
+echo } >> touch.json
