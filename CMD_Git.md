@@ -24,6 +24,15 @@ git push -u origin master
 # Adiciona todos os arquivos modificados ao índice do Git
 git add .
 
+# Adicionar arquivos individualmente
+git add arquivo1.txt arquivo2.txt arquivo3.txt
+
+# Adicionar um diretório específico
+git add nome-do-diretorio/
+
+# Adicionar arquivos por padrão (padrão de nome ou extensão)
+git add *.txt
+
 # Faz um commit com uma mensagem descritiva
 git commit -m "Descrição das alterações realizadas"
 
