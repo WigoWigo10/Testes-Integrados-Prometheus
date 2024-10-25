@@ -34,19 +34,19 @@ REM Verifica se o app.exe existe no mesmo diretório que o arquivo .bat
 set APP_PATH=%~dp0app.exe
 
 REM Cria a pasta para relatórios, se não existir
-if not exist "%RELATORIO_PATH%\Touch" (
-    mkdir "%RELATORIO_PATH%\Touch"
+if not exist "%RELATORIO_PATH%\TouchEmulator" (
+    mkdir "%RELATORIO_PATH%\TouchEmulator"
 )
 
 REM Verifica se o arquivo Relatório de Testes.txt e Relatório de Testes.csv já existem, e incrementa o número se necessário
-set RELATORIO_TXT=%RELATORIO_PATH%\Touch\Relatorio de Testes.txt
-set RELATORIO_CSV=%RELATORIO_PATH%\Touch\Relatorio de Testes.csv
+set RELATORIO_TXT=%RELATORIO_PATH%\TouchEmulator\Relatorio de Testes.txt
+set RELATORIO_CSV=%RELATORIO_PATH%\TouchEmulator\Relatorio de Testes.csv
 set num=0
 :checkfile
 if exist "%RELATORIO_TXT%" (
     set /a num+=1
-    set RELATORIO_TXT=%RELATORIO_PATH%\Touch\Relatorio de Testes - !num!.txt
-    set RELATORIO_CSV=%RELATORIO_PATH%\Touch\Relatorio de Testes - !num!.csv
+    set RELATORIO_TXT=%RELATORIO_PATH%\TouchEmulator\Relatorio de Testes - !num!.txt
+    set RELATORIO_CSV=%RELATORIO_PATH%\TouchEmulator\Relatorio de Testes - !num!.csv
     goto checkfile
 )
 
@@ -58,14 +58,14 @@ REM echo Início do script - Data: %date% Hora: %time% > "%DEBUG_PATH%"
 REM Verifica se o executável existe
 if not exist "%EXECUTAVEL_EXE_PATH%" (
     REM echo O executável não foi encontrado! >> "%DEBUG_PATH%"
-    MSG * O executável não foi encontrado!
+    echo * O executavel nao foi encontrado!
     exit /b
 )
 
 REM Verifica se o app.exe existe no diretório atual
 if not exist "%APP_PATH%" (
     REM echo O arquivo app.exe não foi encontrado! >> "%DEBUG_PATH%"
-    MSG * O arquivo app.exe não foi encontrado!
+    echo * O arquivo app.exe não foi encontrado!
     exit /b
 )
 
@@ -174,6 +174,6 @@ REM echo Script concluído com %passCount% PASS e %failCount% FAIL >> "%DEBUG_PA
 REM Fim do script
 echo Testes concluidos.
 REM Criar um arquivo para sinalizar a conclusão do loop
-echo Teste concluído > "%RELATORIO_PATH%\Touch\done.txt"
+echo Teste concluído > "%RELATORIO_PATH%\TouchEmulator\done.txt"
 pause
 exit
