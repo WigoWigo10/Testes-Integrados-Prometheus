@@ -132,7 +132,7 @@ echo Iniciando iteracao !contador! as %date% %HORARIO%
 
 REM Executa o executável com caminho completo usando PowerShell e Start-Process
 REM Executa o executável com prioridade máxima e força o primeiro plano
-powershell -Command "Start-Process '%EXECUTAVEL_EXE_PATH%' -Priority High -WindowStyle Normal"
+powershell -Command "Start-Process '%EXECUTAVEL_EXE_PATH%'"
 
 REM Aguarda 3 segundos e inicia o app.py em segundo plano e envia o argumento/comando
 timeout /t 3 /nobreak >nul
