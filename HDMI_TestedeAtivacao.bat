@@ -41,11 +41,15 @@ if exist "%RELATORIO_TXT%" (
     goto checkfile
 )
 
-
 REM Captura o horário atual
 for /F "tokens=1-5 delims=:. " %%A in ("%time%") do set HORARIO=%%A:%%B:%%C
 
-echo Iniciando iteracao !contador! as %date% %HORARIO%
+REM Inicializa contador
+set /a contador=1
+
+echo Iniciando iteracao !contador! as %date% %HORARIO% >> "%RELATORIO_TXT%"
+echo Iniciando iteracao !contador! as %date% %HORARIO% >> "%RELATORIO_CSV%"
+echo Data,Hora,Status,Duração >> "%RELATORIO_CSV%"  REM Cabeçalho do CSV
 
 REM Verifica se o usuário passou o argumento de quantos segundos o Switch AC ficará ativado
 set SEGUNDOS=%~2
@@ -61,12 +65,15 @@ REM Executa o app.exe com o comando para ativar o Switch de Energia AC
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s hdmi 1'"
 
 REM Aguarda o número de segundos fornecido (ou o padrão)
-echo Switch HDMI ativado por %SEGUNDOS% segundos...
+echo Switch HDMI ativado por %SEGUNDOS% segundos... >> "%RELATORIO_TXT%"
+echo Switch HDMI ativado por %SEGUNDOS% segundos... >> "%RELATORIO_CSV%"
 timeout /t %SEGUNDOS% /nobreak >nul
 
 REM Comando para desligar o Switch de Energia AC
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s hdmi 0'"
-echo Switch HDMI desativado após %SEGUNDOS% segundos.
+echo Switch HDMI desativado após %SEGUNDOS% segundos. >> "%RELATORIO_TXT%"
+echo Switch HDMI desativado após %SEGUNDOS% segundos. >> "%RELATORIO_CSV%"
+echo %date%,%HORARIO%,Desativado,%SEGUNDOS% >> "%RELATORIO_CSV%"  REM Registro no CSV
 
 REM Fim do script
 echo Testes concluidos.

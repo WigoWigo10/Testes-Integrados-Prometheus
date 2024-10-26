@@ -44,14 +44,15 @@ if exist "%RELATORIO_TXT%" (
 REM Captura o horário atual
 for /F "tokens=1-5 delims=:. " %%A in ("%time%") do set HORARIO=%%A:%%B:%%C
 
-echo Iniciando iteracao !contador! as %date% %HORARIO%
+REM Inicializa contador
+set /a contador=1
+
+echo Iniciando iteracao !contador! as %date% %HORARIO% >> "%RELATORIO_TXT%"
+echo Iniciando iteracao !contador! as %date% %HORARIO% >> "%RELATORIO_CSV%"
+echo Data,Hora,Status,Duração >> "%RELATORIO_CSV%"  REM Cabeçalho do CSV
 
 REM Verifica se o usuário passou o argumento de quantos segundos o Switch AC ficará ativado
 set SEGUNDOS=%~2
-if "%SEGUNDOS%"=="" (
-    echo Argumento de segundos não fornecido. Usando valor padrão de 5 segundos.
-    set SEGUNDOS=5
-)
 
 REM Aguarda 1 segundo e inicia o app.exe em segundo plano com argumentos/comando
 timeout /t 1 /nobreak >nul
@@ -60,12 +61,15 @@ REM Executa o app.exe com o comando para ativar o Switch de Energia AC
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s ac 1'"
 
 REM Aguarda o número de segundos fornecido (ou o padrão)
-echo Switch AC ativado por %SEGUNDOS% segundos...
+echo Switch AC ativado por %SEGUNDOS% segundos... >> "%RELATORIO_TXT%"
+echo Switch AC ativado por %SEGUNDOS% segundos... >> "%RELATORIO_CSV%"
 timeout /t %SEGUNDOS% /nobreak >nul
 
 REM Comando para desligar o Switch de Energia AC
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s ac 0'"
-echo Switch AC desativado após %SEGUNDOS% segundos.
+echo Switch AC desativado após %SEGUNDOS% segundos. >> "%RELATORIO_TXT%"
+echo Switch AC desativado após %SEGUNDOS% segundos. >> "%RELATORIO_CSV%"
+echo %date%,%HORARIO%,Desativado,%SEGUNDOS% >> "%RELATORIO_CSV%"  REM Registro no CSV
 
 REM Fim do script
 echo Testes concluidos.

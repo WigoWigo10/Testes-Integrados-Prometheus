@@ -131,7 +131,8 @@ for /F "tokens=1-5 delims=:. " %%A in ("%time%") do set HORARIO=%%A:%%B:%%C
 echo Iniciando iteracao !contador! as %date% %HORARIO%
 
 REM Executa o executável com caminho completo usando PowerShell e Start-Process
-powershell -Command "Start-Process '%EXECUTAVEL_EXE_PATH%'"
+REM Executa o executável com prioridade máxima e força o primeiro plano
+powershell -Command "Start-Process '%EXECUTAVEL_EXE_PATH%' -Priority High -WindowStyle Normal"
 
 REM Aguarda 3 segundos e inicia o app.py em segundo plano e envia o argumento/comando
 timeout /t 3 /nobreak >nul

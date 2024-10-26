@@ -11,6 +11,7 @@ from keyboard_test import KeyboardTest
 from ac_test import ACTest
 from hdmi_test import HDMITest
 from fan_test import FANTest
+from lid_test import LIDTest
 
 class MonitorThread(QThread):
     loop_concluido = pyqtSignal(str)
@@ -32,7 +33,7 @@ class MonitorThread(QThread):
 class MainWindow(QMainWindow, Ui_MainWindow):
     def __init__(self):
         super().__init__()
-        self.setFixedSize(690, 355)
+        self.setFixedSize(690, 540)
         self.setupUi(self)
 
         self.RELATORIO_PATH = os.path.join(os.path.expanduser("~"), "Desktop", "RotinadeTestes")
@@ -48,9 +49,18 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.Botao_Ativar_AC.clicked.connect(self.Executar_TesteAC_bat)
         self.Botao_Ativar_HDMI.clicked.connect(self.Executar_TesteHDMI_bat)
         self.Botao_Ativar_Fan.clicked.connect(self.Executar_TesteFAN_bat)
+        self.Botao_Ativar_LID.clicked.connect(self.Executar_TesteLID_bat)
         
 
         self.Botao_DiretorioSalvamento.clicked.connect(self.MudarDiretorio_da_Saida)
+        
+    def Executar_TesteLID_bat(self):
+        segundos_lid = self.spinBox_LID_segundos.value()
+        self.lid_test = LIDTest(self.RELATORIO_PATH, segundos_lid)
+        threading.Thread(target=self.lid_test.executar_lid).start()
+        self.monitor_thread_lid = MonitorThread(self.RELATORIO_PATH, "PowerHub/LID")
+        self.monitor_thread_lid.loop_concluido.connect(lambda: self.lid_test.exibir_mensagem("conclusão", "LID"))
+        self.monitor_thread_lid.start()
         
     def Executar_TesteFAN_bat(self):
         segundos_fan = self.spinBox_Fan_segundos.value()
@@ -117,12 +127,29 @@ class MainWindow(QMainWindow, Ui_MainWindow):
             self.Label_Diretorio_EXE_Teclado.setText(arquivo)
 
     def Resetar(self):
+        # Limpar diretórios selecionados
         self.Label_Diretorio_EXE_Touch.clear()
         self.Label_Diretorio_EXE_Teclado.clear()
-        self.spinBox_AC_segundos.clear()
+        
+        # Resetar valores dos spinBoxes
+        self.spinBox_AC_segundos.setValue(5)
+        self.spinBox_HDMI_segundos.setValue(5)
+        self.spinBox_Fan_segundos.setValue(5)
+        self.spinBox_LID_segundos.setValue(5)
+        self.spinBox_ServoMotor_AnguloDesejado.setValue(0)
+        self.spinBox_ServoMotor_segundos.setValue(5)
+        
+        # Resetar índices dos comboBoxes
+        self.QComboBox_ServoMotor_ID.setCurrentIndex(0)
+        self.QComboBox_ServoMotor_Direcao.setCurrentIndex(0)
+        
+        # Limpar campos de texto
         self.Box_Valordeloop_Touch.clear()
         self.Box_Valordeloop_Teclado.clear()
+        
+        # Setar diretório padrão de salvamento
         self.Label_Diretorio_Salvamento.setText(os.path.join(os.path.expanduser("~"), "Desktop", "RotinadeTestes"))
+
 
     def exibir_mensagem(self, tipo, mensagem):
         msg_box = QMessageBox()
