@@ -135,7 +135,7 @@ REM Executa o executável com prioridade máxima e força o primeiro plano
 powershell -Command "Start-Process '%EXECUTAVEL_EXE_PATH%'"
 
 REM Aguarda 3 segundos e inicia o app.py em segundo plano e envia o argumento/comando
-timeout /t 3 /nobreak >nul
+waitfor /t 3 MySignal 2>nul
 
 REM Executa o app.exe com o arquivo JSON gerado, usando Start-Process no PowerShell
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m touch_emulator --device te-001 -c touch.json'"
@@ -144,7 +144,7 @@ REM Espera o primeiro executável terminar
 waitfor /T 15 MySignal 2>nul
 
 REM Após o término do primeiro executável, aguarda 2 segundos para garantir a geração do log
-timeout /t 2 /nobreak >nul
+waitfor /t 2 MySignal 2>nul
 
 REM Caminho do log baseado no diretório do executável
 set LOG_PATH=%~dp2ITPM_KeyboardTest.LOG

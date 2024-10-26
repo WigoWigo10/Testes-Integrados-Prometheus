@@ -144,8 +144,8 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         self.QComboBox_ServoMotor_Direcao.setCurrentIndex(0)
         
         # Limpar campos de texto
-        self.Box_Valordeloop_Touch.clear()
-        self.Box_Valordeloop_Teclado.clear()
+        self.Box_Valordeloop_Touch.setValue(1)
+        self.Box_Valordeloop_Teclado.setValue(1)
         
         # Setar diretório padrão de salvamento
         self.Label_Diretorio_Salvamento.setText(os.path.join(os.path.expanduser("~"), "Desktop", "RotinadeTestes"))

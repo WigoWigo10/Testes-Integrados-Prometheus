@@ -55,16 +55,13 @@ echo Data,Hora,Status,Duracao >> "%RELATORIO_CSV%"  REM Cabeçalho do CSV
 REM Verifica se o usuário passou o argumento de quantos segundos o Switch LID ficará ativado
 set SEGUNDOS=%~2
 
-REM Aguarda 1 segundo e inicia o app.exe em segundo plano com argumentos/comando
-timeout /t 1 /nobreak >nul
-
 REM Executa o app.exe com o comando para ativar o Switch de Energia LID
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s lid 1 -lid %SEGUNDOS%'"
 
 REM Aguarda o número de segundos fornecido (ou o padrão)
 echo Switch LID ativado por %SEGUNDOS% segundos... >> "%RELATORIO_TXT%"
 echo Switch LID ativado por %SEGUNDOS% segundos... >> "%RELATORIO_CSV%"
-timeout /t %SEGUNDOS% /nobreak >nul
+waitfor /t %SEGUNDOS% MySignal 2>nul
 
 REM Comando para desligar o Switch de Energia LID
 REM Não é necessário o comando pois o comando inicial já desliga depois dos segundos powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s lid 0'"

@@ -1,0 +1,617 @@
+([('Rotina de Testes de Loop.exe',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\build\\TestecomDiretorioeFrontV6.0\\Rotina '
+   'de Testes de Loop.exe',
+   'EXECUTABLE'),
+  ('app.exe',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\app.exe',
+   'BINARY'),
+  ('python312.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\python312.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qpdf.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\opengl32sw.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\opengl32sw.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\plugins\\styles\\qmodernwindowsstyle.dll',
+   'BINARY'),
+  ('_decimal.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('PyQt6\\QtGui.pyd',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\QtGui.pyd',
+   'EXTENSION'),
+  ('PyQt6\\sip.cp312-win_amd64.pyd',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\sip.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PyQt6\\QtCore.pyd',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\QtCore.pyd',
+   'EXTENSION'),
+  ('PyQt6\\QtWidgets.pyd',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('VCRUNTIME140.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Core.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Core.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Gui.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Gui.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\MSVCP140.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Pdf.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Network.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Network.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Svg.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Svg.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\Qt6Widgets.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\Qt6Widgets.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\MSVCP140_2.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140_2.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Program '
+   'Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.12_3.12.2032.0_x64__qbz5n2kfra8p0\\python3.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\MSVCP140_1.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\VCRUNTIME140.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\bin\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('AC_TestedeAtivacao.bat',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\AC_TestedeAtivacao.bat',
+   'DATA'),
+  ('Fan_TestedeAtivacao.bat',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\Fan_TestedeAtivacao.bat',
+   'DATA'),
+  ('HDMI_TestedeAtivacao.bat',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\HDMI_TestedeAtivacao.bat',
+   'DATA'),
+  ('Keyboard_TestenoDiretorio.bat',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\Keyboard_TestenoDiretorio.bat',
+   'DATA'),
+  ('MainWindow.py',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\MainWindow.py',
+   'DATA'),
+  ('MainWindow.ui',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\MainWindow.ui',
+   'DATA'),
+  ('TouchEmulator_TestenoDiretorio.bat',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\TouchEmulator_TestenoDiretorio.bat',
+   'DATA'),
+  ('ac_test.py',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\ac_test.py',
+   'DATA'),
+  ('fan_test.py',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\fan_test.py',
+   'DATA'),
+  ('hdmi_test.py',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\hdmi_test.py',
+   'DATA'),
+  ('keyboard.json',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\keyboard.json',
+   'DATA'),
+  ('keyboard_test.py',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\keyboard_test.py',
+   'DATA'),
+  ('tesk.ico',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\tesk.ico',
+   'DATA'),
+  ('touch.json',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\touch.json',
+   'DATA'),
+  ('touch_test.py',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\touch_test.py',
+   'DATA'),
+  ('base_library.zip',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\build\\TestecomDiretorioeFrontV6.0\\base_library.zip',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_bg.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_es.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_da.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pl.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_it.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ka.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fa.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ko.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ko.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_gd.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_gl.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_gl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_cs.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_de.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_fr.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_it.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_it.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_nn.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_uk.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_uk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_en.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_he.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_de.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_zh_CN.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ka.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ka.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_nn.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fa.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ko.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_lv.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_de.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_sk.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyQt6\\Qt6\\translations\\qtbase_tr.qm',
+   'DATA')],)

@@ -55,7 +55,7 @@ REM Verifica se o usuário passou o argumento de quantos segundos o Switch AC fi
 set SEGUNDOS=%~2
 
 REM Aguarda 1 segundo e inicia o app.exe em segundo plano com argumentos/comando
-timeout /t 1 /nobreak >nul
+REM waitfor /t 1 MySignal 2>nul
 
 REM Executa o app.exe com o comando para ativar o Switch de Energia AC
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s ac 1'"
@@ -63,7 +63,9 @@ powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --ac
 REM Aguarda o número de segundos fornecido (ou o padrão)
 echo Switch AC ativado por %SEGUNDOS% segundos... >> "%RELATORIO_TXT%"
 echo Switch AC ativado por %SEGUNDOS% segundos... >> "%RELATORIO_CSV%"
-timeout /t %SEGUNDOS% /nobreak >nul
+waitfor /t %SEGUNDOS% MySignal 2>nul
+
+REM timeout /t %SEGUNDOS% /nobreak >nul
 
 REM Comando para desligar o Switch de Energia AC
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s ac 0'"

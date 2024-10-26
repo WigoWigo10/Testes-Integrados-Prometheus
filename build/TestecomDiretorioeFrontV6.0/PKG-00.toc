@@ -1,0 +1,65 @@
+('E:\\Executavel Touch\\Rotina de Testes '
+ 'Integrada\\TestecomDiretorioeFrontV6.0\\build\\TestecomDiretorioeFrontV6.0\\Rotina '
+ 'de Testes de Loop.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\build\\TestecomDiretorioeFrontV6.0\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\build\\TestecomDiretorioeFrontV6.0\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\build\\TestecomDiretorioeFrontV6.0\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\build\\TestecomDiretorioeFrontV6.0\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\build\\TestecomDiretorioeFrontV6.0\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\build\\TestecomDiretorioeFrontV6.0\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyqt6',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyqt6.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('main',
+   'E:\\Executavel Touch\\Rotina de Testes '
+   'Integrada\\TestecomDiretorioeFrontV6.0\\main.py',
+   'PYSOURCE')],
+ 'python312.dll',
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

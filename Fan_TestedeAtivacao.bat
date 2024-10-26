@@ -53,13 +53,6 @@ echo Data,Hora,Status,Duração >> "%RELATORIO_CSV%"  REM Cabeçalho do CSV
 
 REM Verifica se o usuário passou o argumento de quantos segundos o Switch AC ficará ativado
 set SEGUNDOS=%~2
-if "%SEGUNDOS%"=="" (
-    echo Argumento de segundos não fornecido. Usando valor padrão de 5 segundos.
-    set SEGUNDOS=5
-)
-
-REM Aguarda 1 segundo e inicia o app.exe em segundo plano com argumentos/comando
-timeout /t 1 /nobreak >nul
 
 REM Executa o app.exe com o comando para ativar o Switch de Energia AC
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s fan 1'"
@@ -67,7 +60,7 @@ powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --ac
 REM Aguarda o número de segundos fornecido (ou o padrão)
 echo Switch FAN ativado por %SEGUNDOS% segundos... >> "%RELATORIO_TXT%"
 echo Switch FAN ativado por %SEGUNDOS% segundos... >> "%RELATORIO_CSV%"
-timeout /t %SEGUNDOS% /nobreak >nul
+waitfor /t %SEGUNDOS% MySignal 2>nul
 
 REM Comando para desligar o Switch de Energia AC
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s fan 0'"

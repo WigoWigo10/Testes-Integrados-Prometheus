@@ -83,7 +83,7 @@ powershell -Command "Start-Process '%EXECUTAVEL_EXE_PATH%'"
 REM echo Executável iniciado: %EXECUTAVEL_EXE_PATH% >> "%DEBUG_PATH%"
 
 REM Aguarda 3 segundos e inicia o app.exe em segundo plano com argumentos/comando
-timeout /t 3 /nobreak >nul
+waitfor /t 2 MySignal 2>nul
 REM echo Timeout de 3 segundos concluído >> "%DEBUG_PATH%"
 
 REM Executa o app.exe com o arquivo JSON gerado, usando Start-Process no PowerShell
@@ -91,11 +91,11 @@ powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m touch_emulator
 REM echo app.exe iniciado com touch.json >> "%DEBUG_PATH%"
 
 REM Espera o primeiro executável terminar
-waitfor /T 5 MySignal 2>nul
+waitfor /T 3 MySignal 2>nul
 REM echo Comando waitfor executado >> "%DEBUG_PATH%"
 
 REM Após o término do primeiro executável, aguarda 2 segundos para garantir a geração do log
-timeout /t 2 /nobreak >nul
+waitfor /t 2 MySignal 2>nul
 REM echo Timeout de 2 segundos após app.exe concluído >> "%DEBUG_PATH%"
 
 REM Caminho do log baseado no diretório do executável
