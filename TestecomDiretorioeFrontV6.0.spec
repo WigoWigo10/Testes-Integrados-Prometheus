@@ -5,12 +5,26 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[
-        ('app.exe', '.'),  # O executável pode ser incluído, mas geralmente não é necessário se for o próprio arquivo a ser executado
+        ('app.exe', '.'),
         ('tesk.ico', '.'),
-        ('TouchEmulator_TestenoDiretorio.bat', '.'),
-        ('touch.json', '.'),
+
+        ('ac_test.py', '.'),
+        ('AC_TestedeAtivacao.bat', '.'),
+
+        ('fan_test.py', '.'),
+        ('Fan_TestedeAtivacao.bat', '.'),
+
+        ('hdmi_test.py', '.'),
+        ('HDMI_TestedeAtivacao.bat', '.'),
+
+        ('keyboard_test.py', '.'),
         ('Keyboard_TestenoDiretorio.bat', '.'),
         ('keyboard.json', '.'),
+
+        ('touch_test.py', '.'),
+        ('TouchEmulator_TestenoDiretorio.bat', '.'),
+        ('touch.json', '.'),
+
         ('MainWindow.ui', '.'),
         ('MainWindow.py', '.'),
     ],
@@ -34,7 +48,7 @@ exe = EXE(
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
-    upx=False,
+    upx=True,
     console=False,
     icon='tesk.ico',
     disable_windowed_traceback=False,
@@ -50,7 +64,7 @@ coll = COLLECT(
     a.binaries,
     a.datas,
     strip=False,
-    upx=False,
+    upx=True,
     upx_exclude=[],
     name='TestecomDiretorioeFrontV6.0',
 )
