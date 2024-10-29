@@ -63,7 +63,7 @@ powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --ac
 REM Aguarda o número de segundos fornecido (ou o padrão)
 echo Switch AC ativado por %SEGUNDOS% segundos... >> "%RELATORIO_TXT%"
 echo Switch AC ativado por %SEGUNDOS% segundos... >> "%RELATORIO_CSV%"
-waitfor /t %SEGUNDOS% MySignal 2>nul
+waitfor /t %SEGUNDOS% MySignal7 2>nul
 
 REM timeout /t %SEGUNDOS% /nobreak >nul
 

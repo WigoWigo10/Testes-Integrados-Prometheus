@@ -17,16 +17,22 @@ a = Analysis(
         ('hdmi_test.py', '.'),
         ('HDMI_TestedeAtivacao.bat', '.'),
 
-        ('keyboard_test.py', '.'),
-        ('Keyboard_TestenoDiretorio.bat', '.'),
+        ('keyboardscan_test.py', '.'),
+        ('Keyboard_TestedeAtivacao.bat', '.'),
+        ('tecla.json', '.'),
         ('keyboard.json', '.'),
 
+        ('lid_test.py', '.'),
+        ('LID_TestedeAtivacao.bat', '.'),
+
         ('touch_test.py', '.'),
-        ('TouchEmulator_TestenoDiretorio.bat', '.'),
+        ('TouchEmulator_TestedeAtivacao.bat', '.'),
         ('touch.json', '.'),
 
         ('MainWindow.ui', '.'),
         ('MainWindow.py', '.'),
+
+
     ],
     hiddenimports=[],
     hookspath=[],

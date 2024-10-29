@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'e:\Executavel Touch\Rotina de Testes Integrada\TestecomDiretorioeFrontV6.0\MainWindow.ui'
+# Form implementation generated from reading ui file 'MainWindow.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -91,54 +91,8 @@ class Ui_MainWindow(object):
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
         self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 669, 399))
         self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
-        self.Texto_AC = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_AC.setGeometry(QtCore.QRect(20, 30, 21, 16))
-        self.Texto_AC.setStyleSheet("color: rgb(255, 255, 255);")
-        self.Texto_AC.setObjectName("Texto_AC")
-        self.Botao_Ativar_AC = QtWidgets.QPushButton(parent=self.scrollAreaWidgetContents)
-        self.Botao_Ativar_AC.setGeometry(QtCore.QRect(130, 30, 111, 23))
-        self.Botao_Ativar_AC.setStyleSheet("QPushButton{\n"
-"\n"
-"    background-color: rgb(87, 90, 97);\n"
-"    color: rgb(255, 255, 255);\n"
-"    border-radius:5\n"
-"}\n"
-"\n"
-"QPushButton:hover{\n"
-"\n"
-"    background-color: rgb(113, 196, 223);\n"
-"    color: rgb(34, 36, 43);\n"
-"    border-radius:7\n"
-"    \n"
-"}\n"
-"QPushButton:pressed{\n"
-"\n"
-"    background-color: rgb(62, 101, 255);\n"
-"    color: rgb(255, 255, 255);\n"
-"    border-radius:10\n"
-"\n"
-"}")
-        self.Botao_Ativar_AC.setObjectName("Botao_Ativar_AC")
-        self.spinBox_AC_segundos = QtWidgets.QSpinBox(parent=self.scrollAreaWidgetContents)
-        self.spinBox_AC_segundos.setGeometry(QtCore.QRect(400, 30, 51, 22))
-        self.spinBox_AC_segundos.setStyleSheet("background-color: rgb(255, 255, 255);\n"
-"color: rgb(0, 0, 0);")
-        self.spinBox_AC_segundos.setSuffix("")
-        self.spinBox_AC_segundos.setPrefix("")
-        self.spinBox_AC_segundos.setMinimum(5)
-        self.spinBox_AC_segundos.setMaximum(100)
-        self.spinBox_AC_segundos.setSingleStep(5)
-        self.spinBox_AC_segundos.setObjectName("spinBox_AC_segundos")
-        self.Texto_AC_por = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_AC_por.setGeometry(QtCore.QRect(310, 30, 21, 16))
-        self.Texto_AC_por.setStyleSheet("color: rgb(255, 255, 255);")
-        self.Texto_AC_por.setObjectName("Texto_AC_por")
-        self.Texto_AC_segundos = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_AC_segundos.setGeometry(QtCore.QRect(500, 30, 61, 16))
-        self.Texto_AC_segundos.setStyleSheet("color: rgb(255, 255, 255);")
-        self.Texto_AC_segundos.setObjectName("Texto_AC_segundos")
         self.spinBox_HDMI_segundos = QtWidgets.QSpinBox(parent=self.scrollAreaWidgetContents)
-        self.spinBox_HDMI_segundos.setGeometry(QtCore.QRect(400, 70, 51, 22))
+        self.spinBox_HDMI_segundos.setGeometry(QtCore.QRect(400, 50, 51, 22))
         self.spinBox_HDMI_segundos.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);")
         self.spinBox_HDMI_segundos.setSuffix("")
@@ -148,11 +102,11 @@ class Ui_MainWindow(object):
         self.spinBox_HDMI_segundos.setSingleStep(5)
         self.spinBox_HDMI_segundos.setObjectName("spinBox_HDMI_segundos")
         self.Texto_HDMI_por = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_HDMI_por.setGeometry(QtCore.QRect(310, 70, 21, 16))
+        self.Texto_HDMI_por.setGeometry(QtCore.QRect(310, 50, 21, 16))
         self.Texto_HDMI_por.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_HDMI_por.setObjectName("Texto_HDMI_por")
         self.Botao_Ativar_HDMI = QtWidgets.QPushButton(parent=self.scrollAreaWidgetContents)
-        self.Botao_Ativar_HDMI.setGeometry(QtCore.QRect(130, 70, 111, 23))
+        self.Botao_Ativar_HDMI.setGeometry(QtCore.QRect(130, 50, 111, 23))
         self.Botao_Ativar_HDMI.setStyleSheet("QPushButton{\n"
 "\n"
 "    background-color: rgb(87, 90, 97);\n"
@@ -176,15 +130,15 @@ class Ui_MainWindow(object):
 "}")
         self.Botao_Ativar_HDMI.setObjectName("Botao_Ativar_HDMI")
         self.Texto_HDMI = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_HDMI.setGeometry(QtCore.QRect(20, 70, 81, 16))
+        self.Texto_HDMI.setGeometry(QtCore.QRect(20, 50, 81, 16))
         self.Texto_HDMI.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_HDMI.setObjectName("Texto_HDMI")
         self.Texto_HDMI_segundos = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_HDMI_segundos.setGeometry(QtCore.QRect(500, 70, 61, 16))
+        self.Texto_HDMI_segundos.setGeometry(QtCore.QRect(500, 50, 61, 16))
         self.Texto_HDMI_segundos.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_HDMI_segundos.setObjectName("Texto_HDMI_segundos")
         self.spinBox_Fan_segundos = QtWidgets.QSpinBox(parent=self.scrollAreaWidgetContents)
-        self.spinBox_Fan_segundos.setGeometry(QtCore.QRect(400, 110, 51, 22))
+        self.spinBox_Fan_segundos.setGeometry(QtCore.QRect(400, 90, 51, 22))
         self.spinBox_Fan_segundos.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);")
         self.spinBox_Fan_segundos.setSuffix("")
@@ -194,11 +148,11 @@ class Ui_MainWindow(object):
         self.spinBox_Fan_segundos.setSingleStep(5)
         self.spinBox_Fan_segundos.setObjectName("spinBox_Fan_segundos")
         self.Texto_Fan_por = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_Fan_por.setGeometry(QtCore.QRect(310, 110, 21, 16))
+        self.Texto_Fan_por.setGeometry(QtCore.QRect(310, 90, 21, 16))
         self.Texto_Fan_por.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_Fan_por.setObjectName("Texto_Fan_por")
         self.Botao_Ativar_Fan = QtWidgets.QPushButton(parent=self.scrollAreaWidgetContents)
-        self.Botao_Ativar_Fan.setGeometry(QtCore.QRect(130, 110, 111, 23))
+        self.Botao_Ativar_Fan.setGeometry(QtCore.QRect(130, 90, 111, 23))
         self.Botao_Ativar_Fan.setStyleSheet("QPushButton{\n"
 "\n"
 "    background-color: rgb(87, 90, 97);\n"
@@ -222,19 +176,19 @@ class Ui_MainWindow(object):
 "}")
         self.Botao_Ativar_Fan.setObjectName("Botao_Ativar_Fan")
         self.Texto_Fan_segundos = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_Fan_segundos.setGeometry(QtCore.QRect(500, 110, 61, 16))
+        self.Texto_Fan_segundos.setGeometry(QtCore.QRect(500, 90, 61, 16))
         self.Texto_Fan_segundos.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_Fan_segundos.setObjectName("Texto_Fan_segundos")
         self.Texto_Fan = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_Fan.setGeometry(QtCore.QRect(20, 110, 81, 16))
+        self.Texto_Fan.setGeometry(QtCore.QRect(20, 90, 81, 16))
         self.Texto_Fan.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_Fan.setObjectName("Texto_Fan")
         self.Texto_LID_por = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_LID_por.setGeometry(QtCore.QRect(310, 150, 21, 16))
+        self.Texto_LID_por.setGeometry(QtCore.QRect(310, 130, 21, 16))
         self.Texto_LID_por.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_LID_por.setObjectName("Texto_LID_por")
         self.spinBox_LID_segundos = QtWidgets.QSpinBox(parent=self.scrollAreaWidgetContents)
-        self.spinBox_LID_segundos.setGeometry(QtCore.QRect(400, 150, 51, 22))
+        self.spinBox_LID_segundos.setGeometry(QtCore.QRect(400, 130, 51, 22))
         self.spinBox_LID_segundos.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);")
         self.spinBox_LID_segundos.setSuffix("")
@@ -242,17 +196,18 @@ class Ui_MainWindow(object):
         self.spinBox_LID_segundos.setMinimum(5)
         self.spinBox_LID_segundos.setMaximum(100)
         self.spinBox_LID_segundos.setSingleStep(5)
+        self.spinBox_LID_segundos.setDisplayIntegerBase(10)
         self.spinBox_LID_segundos.setObjectName("spinBox_LID_segundos")
         self.Texto_LID = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_LID.setGeometry(QtCore.QRect(20, 150, 81, 16))
+        self.Texto_LID.setGeometry(QtCore.QRect(20, 130, 81, 16))
         self.Texto_LID.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_LID.setObjectName("Texto_LID")
         self.Texto_LID_segundos = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_LID_segundos.setGeometry(QtCore.QRect(500, 150, 61, 16))
+        self.Texto_LID_segundos.setGeometry(QtCore.QRect(500, 130, 61, 16))
         self.Texto_LID_segundos.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_LID_segundos.setObjectName("Texto_LID_segundos")
         self.Botao_Ativar_LID = QtWidgets.QPushButton(parent=self.scrollAreaWidgetContents)
-        self.Botao_Ativar_LID.setGeometry(QtCore.QRect(130, 150, 111, 23))
+        self.Botao_Ativar_LID.setGeometry(QtCore.QRect(130, 130, 111, 23))
         self.Botao_Ativar_LID.setStyleSheet("QPushButton{\n"
 "\n"
 "    background-color: rgb(87, 90, 97);\n"
@@ -276,15 +231,15 @@ class Ui_MainWindow(object):
 "}")
         self.Botao_Ativar_LID.setObjectName("Botao_Ativar_LID")
         self.Texto_ServoMotor = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_ServoMotor.setGeometry(QtCore.QRect(20, 210, 81, 16))
+        self.Texto_ServoMotor.setGeometry(QtCore.QRect(20, 190, 81, 16))
         self.Texto_ServoMotor.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_ServoMotor.setObjectName("Texto_ServoMotor")
         self.Texto_ServoMotor_por = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_ServoMotor_por.setGeometry(QtCore.QRect(320, 280, 21, 16))
+        self.Texto_ServoMotor_por.setGeometry(QtCore.QRect(320, 260, 21, 16))
         self.Texto_ServoMotor_por.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_ServoMotor_por.setObjectName("Texto_ServoMotor_por")
         self.Botao_Ativar_ServoMotor = QtWidgets.QPushButton(parent=self.scrollAreaWidgetContents)
-        self.Botao_Ativar_ServoMotor.setGeometry(QtCore.QRect(130, 210, 111, 23))
+        self.Botao_Ativar_ServoMotor.setGeometry(QtCore.QRect(130, 190, 111, 23))
         self.Botao_Ativar_ServoMotor.setStyleSheet("QPushButton{\n"
 "\n"
 "    background-color: rgb(87, 90, 97);\n"
@@ -308,7 +263,7 @@ class Ui_MainWindow(object):
 "}")
         self.Botao_Ativar_ServoMotor.setObjectName("Botao_Ativar_ServoMotor")
         self.Texto_ServoMotor_segundos = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_ServoMotor_segundos.setGeometry(QtCore.QRect(500, 280, 61, 16))
+        self.Texto_ServoMotor_segundos.setGeometry(QtCore.QRect(500, 260, 61, 16))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Fixed, QtWidgets.QSizePolicy.Policy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -317,7 +272,7 @@ class Ui_MainWindow(object):
         self.Texto_ServoMotor_segundos.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_ServoMotor_segundos.setObjectName("Texto_ServoMotor_segundos")
         self.spinBox_ServoMotor_segundos = QtWidgets.QSpinBox(parent=self.scrollAreaWidgetContents)
-        self.spinBox_ServoMotor_segundos.setGeometry(QtCore.QRect(400, 280, 51, 22))
+        self.spinBox_ServoMotor_segundos.setGeometry(QtCore.QRect(400, 260, 51, 22))
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Fixed, QtWidgets.QSizePolicy.Policy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -330,9 +285,10 @@ class Ui_MainWindow(object):
         self.spinBox_ServoMotor_segundos.setMinimum(5)
         self.spinBox_ServoMotor_segundos.setMaximum(100)
         self.spinBox_ServoMotor_segundos.setSingleStep(5)
+        self.spinBox_ServoMotor_segundos.setDisplayIntegerBase(10)
         self.spinBox_ServoMotor_segundos.setObjectName("spinBox_ServoMotor_segundos")
         self.QComboBox_ServoMotor_ID = QtWidgets.QComboBox(parent=self.scrollAreaWidgetContents)
-        self.QComboBox_ServoMotor_ID.setGeometry(QtCore.QRect(20, 280, 111, 22))
+        self.QComboBox_ServoMotor_ID.setGeometry(QtCore.QRect(20, 260, 111, 22))
         self.QComboBox_ServoMotor_ID.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
         self.QComboBox_ServoMotor_ID.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);")
@@ -340,22 +296,22 @@ class Ui_MainWindow(object):
         self.QComboBox_ServoMotor_ID.addItem("")
         self.QComboBox_ServoMotor_ID.addItem("")
         self.Texto_ServoMotor_para = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_ServoMotor_para.setGeometry(QtCore.QRect(20, 320, 41, 16))
+        self.Texto_ServoMotor_para.setGeometry(QtCore.QRect(20, 300, 41, 16))
         self.Texto_ServoMotor_para.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_ServoMotor_para.setObjectName("Texto_ServoMotor_para")
         self.Texto_ServoMotor_Direcao = QtWidgets.QLabel(parent=self.scrollAreaWidgetContents)
-        self.Texto_ServoMotor_Direcao.setGeometry(QtCore.QRect(160, 250, 101, 16))
+        self.Texto_ServoMotor_Direcao.setGeometry(QtCore.QRect(160, 230, 101, 16))
         self.Texto_ServoMotor_Direcao.setStyleSheet("color: rgb(255, 255, 255);")
         self.Texto_ServoMotor_Direcao.setObjectName("Texto_ServoMotor_Direcao")
         self.QComboBox_ServoMotor_Direcao = QtWidgets.QComboBox(parent=self.scrollAreaWidgetContents)
-        self.QComboBox_ServoMotor_Direcao.setGeometry(QtCore.QRect(160, 280, 111, 22))
+        self.QComboBox_ServoMotor_Direcao.setGeometry(QtCore.QRect(160, 260, 111, 22))
         self.QComboBox_ServoMotor_Direcao.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);")
         self.QComboBox_ServoMotor_Direcao.setObjectName("QComboBox_ServoMotor_Direcao")
         self.QComboBox_ServoMotor_Direcao.addItem("")
         self.QComboBox_ServoMotor_Direcao.addItem("")
         self.spinBox_ServoMotor_AnguloDesejado = QtWidgets.QSpinBox(parent=self.scrollAreaWidgetContents)
-        self.spinBox_ServoMotor_AnguloDesejado.setGeometry(QtCore.QRect(70, 320, 51, 22))
+        self.spinBox_ServoMotor_AnguloDesejado.setGeometry(QtCore.QRect(70, 300, 51, 22))
         self.spinBox_ServoMotor_AnguloDesejado.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);")
         self.spinBox_ServoMotor_AnguloDesejado.setPrefix("")
@@ -439,10 +395,10 @@ class Ui_MainWindow(object):
         self.tab_Keyboard = QtWidgets.QWidget()
         self.tab_Keyboard.setStyleSheet("background-color: #343436;")
         self.tab_Keyboard.setObjectName("tab_Keyboard")
-        self.Botao_TesteTeclado = QtWidgets.QPushButton(parent=self.tab_Keyboard)
-        self.Botao_TesteTeclado.setGeometry(QtCore.QRect(30, 40, 111, 23))
-        self.Botao_TesteTeclado.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
-        self.Botao_TesteTeclado.setStyleSheet("QPushButton{\n"
+        self.Botao_TesteTecladoScan = QtWidgets.QPushButton(parent=self.tab_Keyboard)
+        self.Botao_TesteTecladoScan.setGeometry(QtCore.QRect(30, 40, 111, 23))
+        self.Botao_TesteTecladoScan.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
+        self.Botao_TesteTecladoScan.setStyleSheet("QPushButton{\n"
 "\n"
 "    background-color: rgb(87, 90, 97);\n"
 "    color: rgb(255, 255, 255);\n"
@@ -463,33 +419,33 @@ class Ui_MainWindow(object):
 "    border-radius:10\n"
 "\n"
 "}")
-        self.Botao_TesteTeclado.setObjectName("Botao_TesteTeclado")
-        self.Label_Diretorio_EXE_Teclado = QtWidgets.QLabel(parent=self.tab_Keyboard)
-        self.Label_Diretorio_EXE_Teclado.setGeometry(QtCore.QRect(190, 40, 291, 23))
-        self.Label_Diretorio_EXE_Teclado.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.IBeamCursor))
-        self.Label_Diretorio_EXE_Teclado.setMouseTracking(True)
-        self.Label_Diretorio_EXE_Teclado.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+        self.Botao_TesteTecladoScan.setObjectName("Botao_TesteTecladoScan")
+        self.Label_Diretorio_EXE_TecladoScan = QtWidgets.QLabel(parent=self.tab_Keyboard)
+        self.Label_Diretorio_EXE_TecladoScan.setGeometry(QtCore.QRect(190, 40, 291, 23))
+        self.Label_Diretorio_EXE_TecladoScan.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.IBeamCursor))
+        self.Label_Diretorio_EXE_TecladoScan.setMouseTracking(True)
+        self.Label_Diretorio_EXE_TecladoScan.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);\n"
 "font: 8pt \"MS Shell Dlg 2\";\n"
 "border-radius:5")
-        self.Label_Diretorio_EXE_Teclado.setText("")
-        self.Label_Diretorio_EXE_Teclado.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.Label_Diretorio_EXE_Teclado.setObjectName("Label_Diretorio_EXE_Teclado")
-        self.Botao_DiretorioTeclado = QtWidgets.QToolButton(parent=self.tab_Keyboard)
-        self.Botao_DiretorioTeclado.setGeometry(QtCore.QRect(490, 40, 25, 19))
-        self.Botao_DiretorioTeclado.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+        self.Label_Diretorio_EXE_TecladoScan.setText("")
+        self.Label_Diretorio_EXE_TecladoScan.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.Label_Diretorio_EXE_TecladoScan.setObjectName("Label_Diretorio_EXE_TecladoScan")
+        self.Botao_DiretorioTecladoScan = QtWidgets.QToolButton(parent=self.tab_Keyboard)
+        self.Botao_DiretorioTecladoScan.setGeometry(QtCore.QRect(490, 40, 25, 19))
+        self.Botao_DiretorioTecladoScan.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);")
-        self.Botao_DiretorioTeclado.setObjectName("Botao_DiretorioTeclado")
-        self.Box_Valordeloop_Teclado = QtWidgets.QSpinBox(parent=self.tab_Keyboard)
-        self.Box_Valordeloop_Teclado.setGeometry(QtCore.QRect(560, 40, 61, 23))
-        self.Box_Valordeloop_Teclado.setStyleSheet("background-color: rgb(255, 255, 255);\n"
+        self.Botao_DiretorioTecladoScan.setObjectName("Botao_DiretorioTecladoScan")
+        self.Box_Valordeloop_TecladoScan = QtWidgets.QSpinBox(parent=self.tab_Keyboard)
+        self.Box_Valordeloop_TecladoScan.setGeometry(QtCore.QRect(560, 40, 61, 23))
+        self.Box_Valordeloop_TecladoScan.setStyleSheet("background-color: rgb(255, 255, 255);\n"
 "color: rgb(0, 0, 0);")
-        self.Box_Valordeloop_Teclado.setWrapping(True)
-        self.Box_Valordeloop_Teclado.setReadOnly(False)
-        self.Box_Valordeloop_Teclado.setMinimum(1)
-        self.Box_Valordeloop_Teclado.setMaximum(1000000)
-        self.Box_Valordeloop_Teclado.setProperty("value", 1)
-        self.Box_Valordeloop_Teclado.setObjectName("Box_Valordeloop_Teclado")
+        self.Box_Valordeloop_TecladoScan.setWrapping(True)
+        self.Box_Valordeloop_TecladoScan.setReadOnly(False)
+        self.Box_Valordeloop_TecladoScan.setMinimum(1)
+        self.Box_Valordeloop_TecladoScan.setMaximum(1000000)
+        self.Box_Valordeloop_TecladoScan.setProperty("value", 1)
+        self.Box_Valordeloop_TecladoScan.setObjectName("Box_Valordeloop_TecladoScan")
         self.Texto_Loop_Keyboard = QtWidgets.QLabel(parent=self.tab_Keyboard)
         self.Texto_Loop_Keyboard.setGeometry(QtCore.QRect(560, 20, 47, 13))
         self.Texto_Loop_Keyboard.setStyleSheet("color: rgb(255, 255, 255);")
@@ -511,10 +467,6 @@ class Ui_MainWindow(object):
         self.Botao_reset.setText(_translate("MainWindow", "Reset"))
         self.Texto_Localdesalvamento.setText(_translate("MainWindow", "Local de salvamento do relatório:"))
         self.Botao_DiretorioSalvamento.setText(_translate("MainWindow", "..."))
-        self.Texto_AC.setText(_translate("MainWindow", "AC:"))
-        self.Botao_Ativar_AC.setText(_translate("MainWindow", "Ativar"))
-        self.Texto_AC_por.setText(_translate("MainWindow", "por"))
-        self.Texto_AC_segundos.setText(_translate("MainWindow", "segundos"))
         self.Texto_HDMI_por.setText(_translate("MainWindow", "por"))
         self.Botao_Ativar_HDMI.setText(_translate("MainWindow", "Ativar"))
         self.Texto_HDMI.setText(_translate("MainWindow", "HDMI:"))
@@ -540,11 +492,21 @@ class Ui_MainWindow(object):
         self.spinBox_ServoMotor_AnguloDesejado.setSuffix(_translate("MainWindow", "°"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_PowerHub), _translate("MainWindow", "Power Hub"))
         self.Botao_DiretorioTouch.setText(_translate("MainWindow", "..."))
-        self.Texto_Loop_3.setText(_translate("MainWindow", "Local do Diratório"))
+        self.Texto_Loop_3.setText(_translate("MainWindow", "Local do Executável"))
         self.Texto_Loop_Touch.setText(_translate("MainWindow", "Loop"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_Touch), _translate("MainWindow", "Touch"))
-        self.Botao_TesteTeclado.setText(_translate("MainWindow", "Teste de Teclado"))
-        self.Botao_DiretorioTeclado.setText(_translate("MainWindow", "..."))
+        self.Botao_TesteTecladoScan.setText(_translate("MainWindow", "Teste de Teclado"))
+        self.Botao_DiretorioTecladoScan.setText(_translate("MainWindow", "..."))
         self.Texto_Loop_Keyboard.setText(_translate("MainWindow", "Loop"))
-        self.Texto_Diretorio_Keyboard.setText(_translate("MainWindow", "Local do Diratório"))
+        self.Texto_Diretorio_Keyboard.setText(_translate("MainWindow", "Local do Executável"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_Keyboard), _translate("MainWindow", "Keyboard"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec())

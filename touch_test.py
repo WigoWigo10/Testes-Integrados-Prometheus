@@ -11,7 +11,7 @@ class TouchTest:
         self.loop_touch = loop_touch
 
     def executar_touch_emulator(self):
-        comando = f'TouchEmulator_TestenoDiretorio.bat "{self.relatorio_path}" "{self.executavel_touch}" "{self.loop_touch}"'
+        comando = f'TouchEmulator_TestedeAtivacao.bat "{self.relatorio_path}" "{self.executavel_touch}" "{self.loop_touch}"'
         try:
             resultado = subprocess.run(comando, shell=True, check=True, capture_output=True, text=True)
             print(f"Saída: {resultado.stdout}")

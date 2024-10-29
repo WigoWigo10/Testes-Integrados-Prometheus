@@ -1,7 +1,7 @@
 { 
 "cmd": "touch", 
-"touch_interval": 250, 
-"delay":750, 
+"touch_interval": 100, 
+"delay":200, 
 "sequence": [ 
 {"touch_type": "single"}, 
 {"touch_type": "double"} 

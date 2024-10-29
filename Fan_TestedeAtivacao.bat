@@ -16,7 +16,10 @@ set APP_PATH=%~dp0app.exe
 REM Verifica se o app.exe existe no diretório atual
 if not exist "%APP_PATH%" (
     echo O arquivo app.exe não foi encontrado no caminho: %APP_PATH%
+<<<<<<< HEAD
     MSG * O arquivo app.exe não foi encontrado!
+=======
+>>>>>>> 0255f9f (AC Desabilitado)
     exit /b
 )
 
@@ -60,7 +63,7 @@ powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --ac
 REM Aguarda o número de segundos fornecido (ou o padrão)
 echo Switch FAN ativado por %SEGUNDOS% segundos... >> "%RELATORIO_TXT%"
 echo Switch FAN ativado por %SEGUNDOS% segundos... >> "%RELATORIO_CSV%"
-waitfor /t %SEGUNDOS% MySignal 2>nul
+waitfor /t %SEGUNDOS% MySignal8 2>nul
 
 REM Comando para desligar o Switch de Energia AC
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s fan 0'"

@@ -60,7 +60,7 @@ powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --ac
 REM Aguarda o número de segundos fornecido (ou o padrão)
 echo Switch HDMI ativado por %SEGUNDOS% segundos... >> "%RELATORIO_TXT%"
 echo Switch HDMI ativado por %SEGUNDOS% segundos... >> "%RELATORIO_CSV%"
-waitfor /t %SEGUNDOS% MySignal 2>nul
+waitfor /t %SEGUNDOS% MySignal9 2>nul
 
 REM Comando para desligar o Switch de Energia AC
 powershell -Command "Start-Process '%APP_PATH%' -ArgumentList '-m power_hub --action post -c switch -s hdmi 0'"

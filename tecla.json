@@ -1,0 +1,10 @@
+{ 
+"cmd": "all_keys", 
+"keyboard_matrix": [ 
+    { 
+        "ksi": 0, 
+        "kso": 0, 
+        "fn": 0 
+    } 
+] 
+} 
